@@ -1,10 +1,11 @@
 {% extends "blog/base.html" %}
 {% block content %}
+    {% if user.is_authenticated %}
     {% for post in posts %}
         <article class="media content-section">
         <div class="media-body">
             <div class="article-metadata">
-                <img class="rounded-circle account-img" src="{{ post.author.profile.image.url }}" style="border-image-width:12px">
+                <img class="rounded-circle account-img" src="{{ post.author.profile.image.url }}" width="150" height="150">
                 <a class ='mr-2' href="">{{ post.author }}</a>
                 <small class="text-muted">{{ post.date_published|date:'F d Y' }}</small>
             </div>
@@ -15,5 +16,11 @@
         </div>
         </article>
     {% endfor %}
+        {% else %}
+<div class="description">
+    <h1>Welcome to the Landing Page!</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque interdum quam odio, quis placerat ante luctus eu. Sed aliquet dolor id sapien rutrum, id vulputate quam iaculis. Suspendisse consectetur mi id libero fringilla, in pharetra sem ullamcorper.</p>
+</div>
+    {% endif %}
 
 {% endblock %}
