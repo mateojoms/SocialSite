@@ -1,0 +1,47 @@
+[
+  {
+    "title": "hosting website to heroku",
+    "content": "Create an an heroku account",
+    "user_id": 1
+  },
+  {
+    "title": "hosting website to pythonAnywhere",
+    "content": "Create an an heroku account",
+    "user_id": 1
+  },
+  {
+    "title": "CV creation",
+    "content": "The best platform to make your CV presentable",
+    "user_id": 1
+  },
+  {
+    "title": "Web template",
+    "content": "Choose any template to proceed",
+    "user_id": 2
+  },
+  {
+    "title": "The Beginning",
+    "content": "Enjoy reading the book",
+    "user_id": 3
+  },
+  {
+    "title": "Academic Writing",
+    "content": "Writing is so simple",
+    "user_id": 1
+  },
+  {
+    "title": "IT Support Course",
+    "content": "Welcome to the course",
+    "user_id": 2
+  },
+  {
+    "title": "Python step by step tutorial",
+    "content": "This is the link to the tutorial",
+    "user_id": 1
+  },
+  {
+    "title": "Creating Music app with Django",
+    "content": "Follow the tutorial below",
+    "user_id": 3
+  }
+]
