@@ -26,7 +26,7 @@ SECRET_KEY = '5n-aq1r2t0l8!5xjp&4s5lbm2+wzig-%fpa%wxzng6*t_!%8(2'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1','https://mateojoms.herokuapp.com/']
 
 # Application definition
 
